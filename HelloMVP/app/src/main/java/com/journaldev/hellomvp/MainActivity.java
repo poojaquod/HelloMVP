@@ -7,8 +7,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import static android.view.View.GONE;
-
+//MainAtivity
 public class MainActivity extends AppCompatActivity implements MainContract.MainView {
 
     private TextView textView;
@@ -52,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.Main
 
     @Override
     public void hideProgress() {
-        progressBar.setVisibility(GONE);
+        progressBar.setVisibility(View.GONE);
         textView.setVisibility(View.VISIBLE);
     }
 
