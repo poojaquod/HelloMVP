@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-//MainAtivity
+
 public class MainActivity extends AppCompatActivity implements MainContract.MainView {
 
     private TextView textView;
